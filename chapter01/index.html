@@ -9,7 +9,13 @@
     <title>chapter 1</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <h1>this gets replaced when we do root.render of the parent div</h1>
+      <h1>if we put this after script tag then it won't be replaced</h1>
+    </div>
+    <div id="root">
+      <h1>this has the same id but does not get replaced by App.js </h1>
+    </div>
     <h1>hello world html</h1>
     <!-- <script>
       const heading = document.createElement("h1");
@@ -20,5 +26,6 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="App.js"></script>
+    <!-- order of the file import is important -->
   </body>
 </html>

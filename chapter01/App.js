@@ -11,15 +11,21 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 /**
  *
  * <div id="level0">
- *  <div id="level1">
+ *  <div id="level1_1">
  *    <h1>level2</h1>
+ *    <h1>level3</h1>
+ *  </div>
+ *  <div id="level1_2">
+ *    <h1>level2</h1>
+ *    <h1>level3</h1>
  *  </div>
  * </div>
  */
 
 const level2 = React.createElement("h1", {}, "level2");
 const level3 = React.createElement("h1", {}, "level3");
-const level1 = React.createElement("div", { id: "level1" }, [level2, level3]);
-const level0 = React.createElement("div", { id: "level0" }, level1);
+const level1_1 = React.createElement("div", { id: "level1_1" }, [level2, level3]);
+const level1_2 = React.createElement("div", { id: "level1_2" }, [level2, level3]);
+const level0 = React.createElement("div", { id: "level0" }, [level1_1, level1_2]);
 
 root.render(level0);
