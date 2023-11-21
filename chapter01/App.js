@@ -1,3 +1,10 @@
+// const React = require("react");
+// const ReactDOM = require("react-dom");
+
+// for this to work we need to specify type as module.
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement("h1", { id: "heading" }, "hello world from react"); // {} adds attritbutes to a element
 
 // console.log(heading);
