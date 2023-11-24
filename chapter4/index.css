@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.logo {
+  width: 100;
+  padding: 20;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+
+.nav-items {
+  padding: 0 20;
+}
+
+.nav-items > ul {
+  font-size: large;
+  display: flex;
+  padding: 0 20;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10;
+  margin: 10;
+}
+
+.res-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  box-shadow: 1;
+  background-color: cornsilk;
+  padding: 5px;
+}
+
+.res-image {
+  width: 90%;
+  padding: 5px;
+  height: 150px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 20px;
+}

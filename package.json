@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel chapter3/index.html",
-    "build": "parcel build chapter3/index.html",
+    "start": "parcel chapter4/index.html",
+    "build": "parcel build chapter4/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
