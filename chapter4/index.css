@@ -65,3 +65,8 @@
   height: 20%;
 }
 
+.filter-btn {
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
