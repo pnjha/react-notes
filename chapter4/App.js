@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import resturantData from "./swiggy-data.json";
 
 // Header component
 const Header = () => (
@@ -19,39 +20,52 @@ const Header = () => (
 );
 
 // Footer Component
-const Footer = () => {};
+const Footer = () => {
+  return <div className="footer"></div>;
+};
 
 // Resturant Card
-const Resturant = () => (
-  <div className="res-card">
-    <div>
-      <img
-        className="res-image"
-        src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D"
-        alt="food image"
-      ></img>
+const Resturant = ({ resInfo }) => {
+  const { name, avgRatingString, cuisines, sla, costForTwo, cloudinaryImageId } = resInfo;
+  return (
+    <div className="res-card">
+      <div>
+        <img
+          className="res-image"
+          src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`}
+          alt="food image"
+        ></img>
+      </div>
+      <div className="res-name">
+        <h3>{name}</h3>
+      </div>
+      <div className="res-rating">
+        <h5>{avgRatingString} stars</h5>
+      </div>
+      <div className="res-cusines">
+        <h5>{cuisines.join(" ,")}</h5>
+      </div>
+      <div className="delivery-time">
+        <h5>{sla.deliveryTime} minutes</h5>
+      </div>
+      <div className="cost">
+        <h5>{costForTwo}</h5>
+      </div>
     </div>
-    <div className="res-name">
-      <h3>Andhra Gun Powder</h3>
-    </div>
-    <div className="res-rating"></div>
-    <div className="res-cusines">
-      <li>
-        <ul>North Indian</ul>
-        <ul>South Indian</ul>
-        <ul>Italian</ul>
-      </li>
-    </div>
-    <div className="delivery-time"></div>
-  </div>
-);
+  );
+};
 
 // Body Compoent
 const Body = () => (
   <div className="body">
     <div className="search">search</div>
     <div className="res-container">
-      <Resturant />
+      {resturantData.map(
+        (res) => (
+          <Resturant key={res.info.id} resInfo={res.info} />
+        )
+        // Resturant({  resInfo: res.info })
+      )}
     </div>
   </div>
 );

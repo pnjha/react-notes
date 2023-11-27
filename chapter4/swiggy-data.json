@@ -1,0 +1,1459 @@
+[
+  {
+    "info": {
+      "id": "69997",
+      "name": "SLV Corner Restaurant",
+      "cloudinaryImageId": "vpp0p2bjtxr3qnis6zug",
+      "locality": "Slv Corner Vani Vilas Road",
+      "areaName": "Basavanagudi",
+      "costForTwo": "₹450 for two",
+      "cuisines": ["Chinese", "South Indian", "North Indian", "Desserts"],
+      "avgRating": 4.5,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "69997",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3100
+      },
+      "parentId": "21456",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 20,
+        "lastMileTravel": 2,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20 mins",
+        "lastMileTravelString": "2.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/slv-corner-restaurant-slv-corner-vani-vilas-road-basavanagudi-bangalore-69997",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "625034",
+      "name": "Sri Vishnu Grand",
+      "cloudinaryImageId": "rctrmtzcgye6h6608g1d",
+      "locality": "Gandhi Nagar",
+      "areaName": "Majestic",
+      "costForTwo": "₹200 for two",
+      "cuisines": ["South Indian", "North Indian", "Chinese"],
+      "avgRating": 4.2,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "625034",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3100
+      },
+      "parentId": "5697",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 23,
+        "lastMileTravel": 2.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "23 mins",
+        "lastMileTravelString": "2.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/sri-vishnu-grand-gandhi-nagar-majestic-bangalore-625034",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "486189",
+      "name": "Sanman Restaurant",
+      "cloudinaryImageId": "jadgqpxezfyr7ciwvezw",
+      "locality": "Nehru Nagar",
+      "areaName": "Malleshwaram",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["South Indian", "Indian", "Chinese"],
+      "avgRating": 4.5,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "486189",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3700
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3700
+      },
+      "parentId": "177503",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 30,
+        "lastMileTravel": 3.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30 mins",
+        "lastMileTravelString": "3.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 21:44:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹100 OFF",
+        "subHeader": "ABOVE ₹599",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/sanman-restaurant-nehru-nagar-malleshwaram-bangalore-486189",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "499759",
+      "name": "SN Refreshments",
+      "cloudinaryImageId": "fluwgkiakt00h0k4pldf",
+      "locality": "2nd Phase",
+      "areaName": "JP Nagar",
+      "costForTwo": "₹100 for two",
+      "cuisines": ["South Indian"],
+      "avgRating": 4.6,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "499759",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 6100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 6100
+      },
+      "parentId": "299434",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 32,
+        "lastMileTravel": 7.2,
+        "serviceability": "SERVICEABLE",
+        "slaString": "32 mins",
+        "lastMileTravelString": "7.2 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 13:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/sn-refreshments-2nd-phase-jp-nagar-bangalore-499759",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "1754",
+      "name": "SLV Swadishta (South Indian)",
+      "cloudinaryImageId": "pqu2x7g02zbrsmiohr1f",
+      "locality": "2nd Stage",
+      "areaName": "Banashankari",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["South Indian"],
+      "avgRating": 4.5,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "1754",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 4300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 4300
+      },
+      "parentId": "21088",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 30,
+        "lastMileTravel": 4.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30 mins",
+        "lastMileTravelString": "4.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 21:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "ABOVE ₹650",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/slv-swadishta-south-indian-2nd-stage-banashankari-bangalore-1754",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "70023",
+      "name": "Ashirvaad Grand",
+      "cloudinaryImageId": "zxgscuvq7wieruztmicx",
+      "locality": "Chikka Adugudi",
+      "areaName": "Tavarekere",
+      "costForTwo": "₹200 for two",
+      "cuisines": ["Chinese", "South Indian", "North Indian", "Desserts", "Beverages"],
+      "avgRating": 4.3,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "70023",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 5500
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 5500
+      },
+      "parentId": "20989",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 6.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "6.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:50:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/ashirvaad-grand-chikka-adugudi-tavarekere-bangalore-70023",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "226779",
+      "name": "Chikkanna Tiffin Room",
+      "cloudinaryImageId": "bzc2wmmqdjqcv5efz9er",
+      "locality": "Nagarathpete",
+      "areaName": "City Market",
+      "costForTwo": "₹200 for two",
+      "cuisines": ["South Indian", "Snacks"],
+      "avgRating": 4.5,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "226779",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3100
+      },
+      "parentId": "20095",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 2.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "31 mins",
+        "lastMileTravelString": "2.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 12:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/chikkanna-tiffin-room-nagarathpete-city-market-bangalore-226779",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "454364",
+      "name": "Mulbagal Dosa Corner",
+      "cloudinaryImageId": "b0ffc1uxzkn6gjxgrf7y",
+      "locality": "1st Block",
+      "areaName": "Jayanagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["South Indian"],
+      "avgRating": 4.5,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "454364",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3700
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3700
+      },
+      "parentId": "141282",
+      "avgRatingString": "4.5",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 28,
+        "lastMileTravel": 3.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "28 mins",
+        "lastMileTravelString": "3.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 11:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/mulbagal-dosa-corner-1st-block-jayanagar-bangalore-454364",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "15869",
+      "name": "Anna Kuteera",
+      "cloudinaryImageId": "g6baplf1ra0wogbhqwh3",
+      "locality": "3rd Stage",
+      "areaName": "Banashankari",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["South Indian", "North Indian", "Chinese", "Juices"],
+      "avgRating": 4.4,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "15869",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 4900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 4900
+      },
+      "parentId": "18574",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 5.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "31 mins",
+        "lastMileTravelString": "5.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:25:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/anna-kuteera-3rd-stage-banashankari-bangalore-15869",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "495520",
+      "name": "Hotel Aditya (Mahalakshmipuram)",
+      "cloudinaryImageId": "wmzwx3rr0pcp8jl12lw0",
+      "locality": "Mahalaxmipuram",
+      "areaName": "Basaveshwaranagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["North Indian", "South Indian", "Biryani"],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "495520",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 6100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 6100
+      },
+      "parentId": "419366",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 7.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "31 mins",
+        "lastMileTravelString": "7.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 11:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/hotel-aditya-mahalakshmipuram-mahalaxmipuram-basaveshwaranagar-bangalore-495520",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "476261",
+      "name": "Sri Nayvedya Veg",
+      "cloudinaryImageId": "hljbvcwexdml5cllguis",
+      "locality": "4th Block",
+      "areaName": "Jayanagar",
+      "costForTwo": "₹150 for two",
+      "cuisines": ["South Indian"],
+      "avgRating": 4.4,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "476261",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 4300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 4300
+      },
+      "parentId": "285843",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 4.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "27 mins",
+        "lastMileTravelString": "4.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "ABOVE ₹500",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/sri-nayvedya-veg-4th-block-jayanagar-bangalore-476261",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "145076",
+      "name": "Halli Jonne Biriyani",
+      "cloudinaryImageId": "hukiflnai1hosydergnx",
+      "locality": "4th T Block",
+      "areaName": "Jayanagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["South Indian", "Biryani"],
+      "avgRating": 4.3,
+      "feeDetails": {
+        "restaurantId": "145076",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 4900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 4900
+      },
+      "parentId": "21321",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 30,
+        "lastMileTravel": 5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30 mins",
+        "lastMileTravelString": "5.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 16:00:00",
+        "opened": true
+      },
+      "badges": {
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textBased": {},
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹75 OFF",
+        "subHeader": "ABOVE ₹299",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/halli-jonne-biriyani-4th-t-block-jayanagar-bangalore-145076",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "28974",
+      "name": "Brundavan Upachar",
+      "cloudinaryImageId": "ngml4fdctftplflspzxj",
+      "locality": "Ramanjaneya Layout",
+      "areaName": "Uttarahalli",
+      "costForTwo": "₹200 for two",
+      "cuisines": ["South Indian", "North Indian", "Chinese", "Chaat", "Beverages", "Ice Cream"],
+      "avgRating": 4.1,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "28974",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 6100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 6100
+      },
+      "parentId": "16761",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 7.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "7.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹100"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/brundavan-upachar-ramanjaneya-layout-uttarahalli-bangalore-28974",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "21954",
+      "name": "SLV Ragigudda",
+      "cloudinaryImageId": "cdba173526421253fadacfcc3b7ff9f2",
+      "locality": "9Th Block",
+      "areaName": "Jayanagar",
+      "costForTwo": "₹250 for two",
+      "cuisines": ["South Indian", "Snacks", "North Indian", "Chinese"],
+      "avgRating": 4.4,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "21954",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 5500
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 5500
+      },
+      "parentId": "21601",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 6.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "6.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 21:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹100 OFF",
+        "subHeader": "ABOVE ₹499",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/slv-ragigudda-9th-block-jayanagar-bangalore-21954",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "48677",
+      "name": "Indraprastha Vegetarian",
+      "cloudinaryImageId": "u5k6cgnzuyfhgqk0mcmq",
+      "locality": "MC Layout",
+      "areaName": "Vijayanagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["South Indian", "North Indian", "Snacks"],
+      "avgRating": 4.4,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "48677",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 4900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 4900
+      },
+      "parentId": "21003",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 33,
+        "lastMileTravel": 5.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "33 mins",
+        "lastMileTravelString": "5.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-25 22:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {},
+        "subTitle": {},
+        "message": {},
+        "customIcon": {}
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+      "context": "seo-data-79610126-2b9b-43d4-9675-2839c89b2fe3"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/indraprastha-vegetarian-mc-layout-vijayanagar-bangalore-48677",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  }
+]
