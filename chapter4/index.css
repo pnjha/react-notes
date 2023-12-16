@@ -55,10 +55,6 @@
   border: 1px solid black;
 }
 
-.search {
-  padding: 20px;
-}
-
 .footer {
   background-color: royalblue;
   width: 100%;
@@ -66,6 +62,48 @@
 }
 
 .filter-btn {
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.shimmer-container {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-wrap: wrap;
+}
+
+.shimmmer-card {
+  width: 200px;
+  height: 400px;
+  box-shadow: 1;
+  background-color: cornsilk;
+  padding: 5px;
+  margin: 5px;
+}
+
+.login-btn {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.searchBtn {
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.search-input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.reset-filter {
   padding: 5px;
   cursor: pointer;
   margin: 5px;
