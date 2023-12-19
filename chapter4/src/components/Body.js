@@ -1,4 +1,4 @@
-import _, { reduce } from "lodash";
+import _ from "lodash";
 import { useState, useEffect } from "react";
 import Resturant from "./Resturant";
 import Shimmer from "./Shimmer";
