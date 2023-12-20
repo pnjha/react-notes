@@ -2,6 +2,7 @@ import _ from "lodash";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Shimmer from "./Shimmer";
+import MenuItem from "./MenuItem";
 
 export default () => {
   const [resInfo, setResInfo] = useState({});
@@ -21,7 +22,7 @@ export default () => {
     setMenuInfo(json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
     return json;
   };
-  const { name, cuisines, costForTwoMessage } = resInfo;
+  const { name, cuisines } = resInfo;
   console.log(menuInfo);
   return _.isEmpty(resInfo) ? (
     <Shimmer />
@@ -29,17 +30,27 @@ export default () => {
     <div className="menu">
       <h1> {name} </h1>
       <h3> {cuisines.join(", ")} </h3>
-      <h3> {costForTwoMessage} </h3>
       <h2> Menu </h2>
       <ul>
-        {_.map(menuInfo, (item) =>
-          _.map(item?.card?.card?.itemCards, (member) => (
-            <li key={member?.card?.info?.id}>
-              Name: {member?.card?.info?.name}, Price: Rs{" "}
-              {parseInt(member?.card?.info?.price ?? member?.card?.info?.defaultPrice) / 100}
-            </li>
-          ))
-        )}
+        <div className="menu-item-container">
+          {_.map(menuInfo, (item) =>
+            _.map(item?.card?.card?.itemCards, (member) => {
+              const info = _.get(member, "card.info", {});
+              if (!_.isEmpty(info.imageId)) {
+                return (
+                  <MenuItem
+                    key={info.id}
+                    name={info.name}
+                    price={parseInt(info.price ?? info.defaultPrice) / 100}
+                    imageId={info.imageId}
+                    description={info.description}
+                    itemRatings={info.ratings.aggregatedRating.rating}
+                  />
+                );
+              }
+            })
+          )}
+        </div>
       </ul>
     </div>
   );

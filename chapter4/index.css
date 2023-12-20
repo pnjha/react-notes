@@ -47,6 +47,26 @@
   flex-wrap: wrap;
 }
 
+.menu-item-card {
+  width: 200px;
+  box-shadow: 1;
+  background-color: cornsilk;
+  padding: 5px;
+  margin: 5px;
+}
+
+.menu-item-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.menu-item-container {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-wrap: wrap;
+}
+
 .res-image {
   width: 90%;
   padding: 5px;
@@ -107,4 +127,9 @@
   padding: 5px;
   cursor: pointer;
   margin: 5px;
+}
+
+.member-card {
+  padding: 10px;
+  border: 1px solid black;
 }
