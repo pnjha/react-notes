@@ -7,6 +7,7 @@ export default class MemberClass extends React.Component {
     this.location = options.location;
     this.state = { count: 0, user_info: {} };
     // console.log(`MemberClass ${this.name} constructor`);
+    this.setintervalid = 0;
   }
   async componentDidMount() {
     // console.log(`MemberClass ${this.name} componentDidMount`);
@@ -15,9 +16,20 @@ export default class MemberClass extends React.Component {
     this.setState({
       user_info: json
     });
+    // this has to  be cleared componentWillUnmount
+    this.setintervalid = setInterval(() => {
+      console.log("setInteval");
+    }, 2000);
   }
-  componentDidUpdate() {
+  componentDidUpdate(preProps, prevState) {
+    if (this.state.count !== prevState.count) {
+      // perform the code that you would do in useEffect for functional component
+    }
     // console.log(`MemberClass ${this.name} componentDidUpdate`);
+  }
+  componentWillUnmount() {
+    clearInterval(this.setintervalid);
+    // called just before we move to next page
   }
   render() {
     // this.forceUpdate(); // dangerous

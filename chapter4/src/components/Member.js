@@ -4,7 +4,18 @@ const Member = ({ name }) => {
   const [count, setCount] = useState(0);
   const [user, setUser] = useState({});
   useEffect(() => {
+    console.log("member use effect 1");
     const userInfo = getUser();
+  }, []);
+  //perfectly valid
+  useEffect(() => {
+    console.log("member use effect 2");
+    const setintervalid = setInterval(() => {
+      console.log("member fucntional component set interval");
+    }, 2000);
+    return () => {
+      clearInterval(setintervalid);
+    }; // called when your are unmounting
   }, []);
   const getUser = async () => {
     const res = await fetch("https://api.github.com/users/pnjha");
