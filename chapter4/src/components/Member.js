@@ -11,7 +11,7 @@ const Member = ({ name }) => {
   useEffect(() => {
     console.log("member use effect 2");
     const setintervalid = setInterval(() => {
-      console.log("member fucntional component set interval");
+      console.log("member functional component set interval");
     }, 2000);
     return () => {
       clearInterval(setintervalid);

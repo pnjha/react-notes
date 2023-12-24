@@ -1,6 +1,7 @@
-import properties from "../config/properties";
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import properties from "../config/properties";
+import useUserOnline from "../hooks/useUserOnline";
 
 export default () => {
   const [btnName, setBtnName] = useState("Login");
@@ -15,6 +16,7 @@ export default () => {
   useEffect(() => {
     console.log("use effect called");
   }, [btnName, btnName2]);
+  const isUserOnline = useUserOnline();
   return (
     <div className="header">
       <div className="logo-container">
@@ -22,8 +24,12 @@ export default () => {
       </div>
       <div className="nav-items">
         <ul>
+          <li>Online Status {isUserOnline ? "🍏" : "🔴"}</li>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/grocery">Grocery</Link>
           </li>
           <li>
             <Link to="/about">About Us</Link>

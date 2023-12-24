@@ -2,8 +2,10 @@ import _ from "lodash";
 import { useState, useEffect } from "react";
 import Resturant from "./Resturant";
 import Shimmer from "./Shimmer";
+import useUserOnline from "../hooks/useUserOnline";
 
 export default () => {
+  const isUserOnline = useUserOnline();
   const [resData, setResData] = useState([]);
   const [filtererdResData, setFiltereredResData] = useState([]);
   const [searchText, setSearchText] = useState("cafe");
@@ -29,6 +31,13 @@ export default () => {
     setResData(resInfo);
     setFiltereredResData(resInfo);
   };
+  if (!isUserOnline) {
+    return (
+      <div>
+        <h2>You appear to be offline</h2>
+      </div>
+    );
+  }
   return filtererdResData.length === 0 ? (
     <Shimmer />
   ) : (
