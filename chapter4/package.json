@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel chapter4/index.html",
-    "build": "parcel build chapter4/index.html",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf node_modules & rm -rf dist & rm -rf .parcel-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "postcss": "^8.4.32",
     "parcel": "^2.10.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.0"
   },
   "dependencies": {
     "lodash": "^4.17.21",

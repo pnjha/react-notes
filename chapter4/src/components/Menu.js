@@ -12,11 +12,12 @@ export default () => {
   return _.isEmpty(resInfo) ? (
     <Shimmer />
   ) : (
-    <div className="menu">
-      <h1> {name} </h1>
+    <div className="menu m-8">
+      <h1 className="font-bold"> {name} </h1>
       <h3> {cuisines.join(", ")} </h3>
       <h2> Menu </h2>
       <button
+        className="bg-pink-400 px-4 rounded-md"
         onClick={() => {
           setResMenuInfo({ resInfo, menuInfo: [] });
         }}
@@ -24,7 +25,7 @@ export default () => {
         Hide Menu
       </button>
       <ul>
-        <div className="menu-item-container">
+        <div className="menu-item-container flex flex-wrap">
           {_.map(menuInfo, (item) =>
             _.map(item?.card?.card?.itemCards, (member) => {
               const info = _.get(member, "card.info", {});

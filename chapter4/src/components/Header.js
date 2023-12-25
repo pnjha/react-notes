@@ -18,30 +18,30 @@ export default () => {
   }, [btnName, btnName2]);
   const isUserOnline = useUserOnline();
   return (
-    <div className="header">
+    <div className="flex justify-between bg-pink-100 shadow-md m-2 px-1 py-1">
       <div className="logo-container">
-        <img className="logo" src={properties.logo_url}></img>
+        <img className="w-32 shadow-sm" src={properties.logo_url}></img>
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Online Status {isUserOnline ? "🍏" : "🔴"}</li>
-          <li>
+      <div className="flex items-center">
+        <ul className="flex">
+          <li className="px-4">Online Status {isUserOnline ? "🍏" : "🔴"}</li>
+          <li className="px-4">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/about">About Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/cart">Cart</Link>
           </li>
           <button
-            className="login-btn"
+            className="bg-pink-400 px-4 rounded-md"
             onClick={() => {
               if (btnName === "Logout") {
                 setBtnName("Login");

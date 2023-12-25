@@ -42,18 +42,18 @@ export default () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="filter flex">
+        <div className="search m-4 p-4">
           <input
             type="text"
-            className="search-input"
+            className="border-solid border-pink-600 bg-pink-50 h-10 rounded-md"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           ></input>
           <button
-            className="searchBtn"
+            className="px-4 py-2 bg-pink-200 rounded-md"
             onClick={() => {
               const filteredData = resData.filter((item) => _.includes(item.info.cuisines, searchText));
               setFiltereredResData(filteredData);
@@ -62,25 +62,28 @@ export default () => {
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            setFiltereredResData(_.filter(resData, (item) => item.info.avgRating > 4.3));
-          }}
-        >
-          Top Rated Resturants
-        </button>
-
-        <button
-          className="reset-filter"
-          onClick={() => {
-            setFiltereredResData(resData);
-          }}
-        >
-          Reset
-        </button>
+        <div className="search m-4 p-4">
+          <button
+            className="px-4 py-2 bg-pink-200 rounded-md"
+            onClick={() => {
+              setFiltereredResData(_.filter(resData, (item) => item.info.avgRating > 4.3));
+            }}
+          >
+            Top Rated Resturants
+          </button>
+        </div>
+        <div className="search m-4 p-4">
+          <button
+            className="px-4 py-2 bg-pink-400 rounded-md"
+            onClick={() => {
+              setFiltereredResData(resData);
+            }}
+          >
+            Reset
+          </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="res-container flex flex-wrap">
         {filtererdResData.map(
           (res) => (
             <Resturant key={res.info.id} resInfo={res.info} />
