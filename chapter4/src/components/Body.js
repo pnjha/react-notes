@@ -1,6 +1,6 @@
 import _ from "lodash";
 import { useState, useEffect } from "react";
-import Resturant from "./Resturant";
+import Resturant, { withOpenLabel } from "./Resturant";
 import Shimmer from "./Shimmer";
 import useUserOnline from "../hooks/useUserOnline";
 
@@ -9,6 +9,7 @@ export default () => {
   const [resData, setResData] = useState([]);
   const [filtererdResData, setFiltereredResData] = useState([]);
   const [searchText, setSearchText] = useState("cafe");
+  const ResturantOpen = withOpenLabel(Resturant);
   useEffect(() => {
     swiggyData();
   }, []);
@@ -85,9 +86,12 @@ export default () => {
       </div>
       <div className="res-container flex flex-wrap">
         {filtererdResData.map(
-          (res) => (
-            <Resturant key={res.info.id} resInfo={res.info} />
-          )
+          (res) =>
+            res.info.isOpen ? (
+              <ResturantOpen key={res.info.id} resInfo={res.info} />
+            ) : (
+              <Resturant key={res.info.id} resInfo={res.info} />
+            )
           // Resturant({  resInfo: res.info })
         )}
       </div>

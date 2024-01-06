@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import properties from "../config/properties";
 
-export default ({ resInfo }) => {
+export default Resturant = ({ resInfo }) => {
   const { id, name, avgRatingString, cuisines, sla, costForTwo, cloudinaryImageId } = resInfo;
   return (
     <Link to={`/res/${id}`}>
@@ -31,4 +31,15 @@ export default ({ resInfo }) => {
       </button>
     </Link>
   );
+};
+
+export const withOpenLabel = (ResturantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-green-900 text-white m-2 p-2 rounded-md">Open</label>
+        <ResturantCard {...props} />
+      </div>
+    );
+  };
 };
