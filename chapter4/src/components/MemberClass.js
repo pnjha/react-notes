@@ -1,4 +1,5 @@
 import React from "react";
+import UserContext from "../context/User";
 
 export default class MemberClass extends React.Component {
   constructor(options) {
@@ -49,6 +50,7 @@ export default class MemberClass extends React.Component {
         <h3>Location: {this.state.user_info.location}</h3>
         <h3>Company: {this.state.user_info.company}</h3>
         <h3>Count: {this.state.count}</h3>
+        <UserContext.Consumer>{(data) => <h3>{data.loggedInUser}</h3>}</UserContext.Consumer>
       </button>
     );
   }
