@@ -12,15 +12,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "postcss": "^8.4.32",
     "parcel": "^2.10.3",
+    "postcss": "^8.4.32",
     "process": "^0.11.10",
     "tailwindcss": "^3.4.0"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.0"
   },
   "browserslist": [

@@ -8,6 +8,7 @@ export default ({ cards }) => {
         return (
           <MenuItem
             key={info.id}
+            id={info.id}
             name={info.name}
             price={parseInt(info.price ?? info.defaultPrice) / 100}
             imageId={info.imageId}
