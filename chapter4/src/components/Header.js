@@ -26,7 +26,7 @@ export default () => {
     // console.log(store);
     return store.cart.items;
   });
-  console.log(cartItems);
+  // console.log(cartItems);
   return (
     <div className="flex justify-between bg-pink-100 shadow-md m-2 px-1 py-1">
       <div className="logo-container">
